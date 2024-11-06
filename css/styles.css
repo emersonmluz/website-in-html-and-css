@@ -370,3 +370,67 @@ nav:after {
 .status-text {
     font-size: 20px;
 }
+
+/* Testmony-container */
+
+#testmony-container {
+    background: url('../img/banner7.jpg') no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+}
+
+#testmony-container h2, #testmony-container p {
+    color: white;
+    text-align: center;
+}
+
+#testmony-container h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#testmony-container p {
+    margin-bottom: 50px;
+}
+
+.testmony-box {
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+}
+
+#testmony-container .testmony-box .testmony-msg {
+    background-color: white;
+    color: #666;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    margin: 35px auto;
+    font-style: italic;
+}
+
+.testmony-msg:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+}
+
+.testmony-box img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.testmony-name {
+    font-weight: bold;
+}
