@@ -25,6 +25,11 @@ header {
     width: 100%;
 }
 
+/* Hide Nav */
+.nav-container .btn-menumobile {
+    display: none;
+}
+
 /* Nav */
 
 nav {
